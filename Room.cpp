@@ -1,8 +1,7 @@
-/*
- * Room.cpp
- *
- *  Created on: 09.06.2013
- *      Author: fredo
+/**
+ * @file Room.cpp
+ * @date 09.06.2013
+ * @author xocorret
  */
 
 #include "Room.h"

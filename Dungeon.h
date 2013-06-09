@@ -1,8 +1,7 @@
-/*
- * Dungeon.h
- *
- *  Created on: 09.06.2013
- *      Author: fredo
+/**
+ * @file Dungeon.h
+ * @date 09.06.2013
+ * @author xocorret
  */
 
 #ifndef DUNGEON_H_

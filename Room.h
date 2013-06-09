@@ -1,8 +1,7 @@
-/*
- * Room.h
- *
- *  Created on: 09.06.2013
- *      Author: fredo
+/**
+ * @file Room.h
+ * @date 09.06.2013
+ * @author xocorret
  */
 
 #ifndef ROOM_H_
