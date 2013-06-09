@@ -7,6 +7,7 @@
 #include "ILockable.h"
 
 namespace adventure {
+namespace interface {
 
 void I_Lockable::lock(){
 	this->_locked = true;
@@ -20,4 +21,5 @@ bool I_Lockable::is_locked() const{
 	return this->_locked;
 }
 
+} /* namespace interface */
 } /* namespace adventure */

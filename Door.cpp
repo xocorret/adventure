@@ -19,7 +19,7 @@ Door::~Door() {
 
 std::shared_ptr<Room> Door::passThrough( Room const &fromRoom) const {
 
-	if( this->is_locked() ) return fromRoom; // TODO throw exception
+	if( this->is_locked() ) throw exception::Ex_ActionImpossible("The door is locked.");
 	if( fromRoom == this->room0) return this->room1;
 	if( fromRoom == this->room1) return this->room0;
 	return nullptr; // TODO invalid argument exception

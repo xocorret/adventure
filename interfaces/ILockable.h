@@ -8,6 +8,7 @@
 #define ILOCKABLE_H_
 
 namespace adventure {
+namespace interface {
 
 /**
  * This interface describes objects that can be locked.
@@ -25,5 +26,6 @@ public:
 	bool is_locked() const;
 };
 
+} /* namespace interface */
 } /* namespace adventure */
 #endif /* ILOCKABLE_H_ */
